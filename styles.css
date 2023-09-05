@@ -66,7 +66,7 @@ nav {
     border-radius: 5px;
 }
 
-/* MAIN */
+/* MAIN BANNER*/
 
 .main_banner { 
     background-image: url(./imgs/mainbanner.png);
@@ -86,4 +86,23 @@ nav {
 .main_banner p { 
     font-size: 20px;
     font-weight: 400;
+}
+
+/* MAIN SECTION */
+
+.services_container ul { 
+    margin: 60px 0 0 0;
+    display: flex;
+}
+
+.services_container li { 
+    width: 20%;
+    font-size: 15px;
+    margin: 20px auto;
+    list-style: none;
+    text-align: center;
+}
+
+.li_services h3 { 
+        margin: 10px;
 }
