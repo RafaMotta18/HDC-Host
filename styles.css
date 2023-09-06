@@ -107,7 +107,7 @@ nav {
         margin: 10px;
 }
 
-/* MAIN PRICE AND PLAN */
+/* PRICE AND PLAN SECTION */
 
 .plan_price_title { 
     margin: 75px 0;
@@ -234,7 +234,50 @@ nav {
   .pricing_button.is-featured:active {
       background-color: #269aff;
   }
+
+  /* DOMAIN SECTION */
   
+.form_container { 
+  text-align: center;
+  margin: 60px 0 0 0;
+  padding: 5rem;
+  background-color: #34454e;
+}
+
+.form_container h3 { 
+  color: #fff;
+  font-size: 40px;
+}
+
+.form_container p { 
+  color: #d5d5d5;
+  font-size: 22px;
+  margin: 10px 0 15px;
+}
+
+.form_container input { 
+  border: none;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  outline: none;
+}
+
+.form_container input[type="text"]{ 
+  padding: 20px;
+  width: 60%;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.form_container input[type="submit"]{ 
+  background-color: #2cc76a;
+  color: #fff;
+  padding: 15px;
+  font-size: 18px;
+}
+
+
 
   /* RESPONSIVIDADE */
 
