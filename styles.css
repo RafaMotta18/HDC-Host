@@ -340,7 +340,8 @@ nav {
 }
 
 .contact_container input[type="submit"]:hover,
-.form_container input[type="submit"]:hover {
+.form_container input[type="submit"]:hover, 
+.form_container button:hover{
   transform: scale(1.1);
 
 }
