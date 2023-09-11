@@ -147,7 +147,6 @@ nav {
   border-radius: 10px;
   padding: 15px 25px;
   position: relative;
-  width: 100%;
   z-index: 10;
 }
 
@@ -292,7 +291,7 @@ nav {
   transition: 0.5s;
 }
 
-.result_form { 
+.result_form {
   margin: 30px 0 0 0;
 }
 
@@ -340,8 +339,8 @@ nav {
 }
 
 .contact_container input[type="submit"]:hover,
-.form_container input[type="submit"]:hover, 
-.form_container button:hover{
+.form_container input[type="submit"]:hover,
+.form_container button:hover {
   transform: scale(1.1);
 
 }
@@ -351,7 +350,7 @@ nav {
 footer {
   text-align: center;
   font-weight: bold;
-  margin: -50px 0 135px;
+  margin: 0px 0 50px;
 }
 
 
@@ -359,13 +358,21 @@ footer {
 
 @media (min-width: 900px) {
 
+  p {
+    font-size: 18px;
+  }
+
+  h1, h2, h3 {
+    font-size: 20px;
+  }
+
   .pricing_table {
     flex-direction: row;
   }
 
   .pricing_plan {
     border-bottom: none;
-    border-right: 1px solid #e1f1ff;
+    border-right: 1px solid #0085fa;
     flex-basis: 100%;
     padding: 25px 50px;
   }
@@ -373,4 +380,46 @@ footer {
   .pricing_plan:last-child {
     border-right: none;
   }
+}
+
+/* SMARTPHONE */
+@media (max-width: 767px) {
+  p {
+    font-size: 15px;
+  }
+
+  h1, h2, h3 {
+    font-size: 17px;
+  }
+
+  .nav_container img {
+    width: 45px;
+    margin: 20px 0 0 10px;
+  }
+
+  .nav_itens {
+    margin: 0 15px 0 0;
+  }
+
+  .nav_itens li {
+    margin: 0 0 0 3px;
+    font-size: 15px;
+  }
+
+  .li_services h3 {
+    margin: 10px 0 10px 0;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .contact_container input, .contact_container textarea {
+    width: 60%;
+  }
+
+  .contact_container {
+    padding: 1rem;
+  }
+
 }
