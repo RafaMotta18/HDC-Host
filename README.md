@@ -20,6 +20,9 @@ O HDC Host é um projeto desenvolvido utilizando tecnologias web, incluindo HTML
 
  + Verificação de Disponibilidade de Domínio: Oferecemos uma funcionalidade que permite aos usuários verificar a disponibilidade de um domínio de forma rápida e eficiente, com base na integração com a API Domain Check.
 
+### Visualização 
+Para acessa o site clique no link ao lado: [HDC Host](https://hosthdc.netlify.app/)
+
 # HDC Host - English Version
 
 HDC Host is a project developed using web technologies, including HTML, CSS, and JavaScript, with the purpose of applying and enhancing my knowledge in the field. This website simulates a Landing Page for a domain registration company. It presents various plans, offered benefits, contact information, and includes a special section that allows users to check the availability of a desired domain.
@@ -36,3 +39,6 @@ HDC Host is a project developed using web technologies, including HTML, CSS, and
 + Plans and Benefits: Detailed presentation of the plans offered by the company, along with the benefits of each one.
 + Contact Forms: We provide contact forms to facilitate communication with our customers.
 + Domain Availability Check: We offer a functionality that allows users to quickly and efficiently check the availability of a domain, based on integration with the Domain Check API.
+
+###V Visualization  
+View to access the site click on the link alongside: [HDC Host](https://hosthdc.netlify.app/)
