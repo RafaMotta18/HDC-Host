@@ -410,6 +410,14 @@ footer {
     margin: 10px 0 10px 0;
   }
 
+  .services_container ul{ 
+    flex-direction: column;
+  }
+
+  .services_container li{ 
+    width: auto;
+  }
+
   .container {
     padding: 0;
   }
